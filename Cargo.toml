@@ -1,0 +1,12 @@
+[package]
+name = "web_crawler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = "0.11" # HTTP client
+tokio = { version = "1", features = ["full"] } # Async runtime
+scraper = "0.14" # HTML parsing
+url = "2.3" # URL manipulation
+futures = "0.3" # Async utilities
+dashmap = "5.4" # Concurrent hashmap
